@@ -1,0 +1,9 @@
+version: '3.8'
+services:
+  spring-app:
+    
+    build: .
+    container_name: 'kameleoon-app'
+    restart: always
+    ports:
+      - '8080:8080'
